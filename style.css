@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Special Elite', cursive;
+
 }
 
 .logo {
@@ -9,12 +13,15 @@ body {
     margin: 0 auto;
 }
 
-.title, .contact {
+.title {
     margin: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
-
+.contact {
+  margin: 2rem;
+  font-size: 1.4rem;
+}
 .social {
     position: relative;
     display: flex;
