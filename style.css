@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.title, .contact {
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+
+.social {
+    position: relative;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 5px;
+    margin: 2rem;
+    padding-top: 4rem;
+  }
+  
+
+  
+  .social img {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    transition: 0.5s;
+  }
+  
+  .social_icons li a:hover {
+    transform: rotate(360deg);
+  }
+  
