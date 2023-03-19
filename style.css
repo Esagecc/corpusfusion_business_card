@@ -5,30 +5,34 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Special Elite', cursive;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .logo {
-    width: 400px;
-    margin: 0 auto;
+  display: flex;
+    width: 350px;
+    margin: 2rem auto .5rem;
+    align-items: center;
 }
 
 .title {
-    margin: 2rem;
-    font-size: 1.25rem;
+  margin: 1rem;
+  font-size: 1.25rem;
 }
 
 .contact {
-  margin: 2rem;
+  margin: 1rem;
   font-size: 1.4rem;
 }
 .social {
     position: relative;
     display: flex;
     justify-content:space-evenly;
-    margin-top: 5px;
+    margin-top: 2px;
     margin: 2rem;
-    padding-top: 4rem;
+    padding-top: 2rem;
   }
   
 
